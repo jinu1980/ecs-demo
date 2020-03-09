@@ -10,7 +10,7 @@
             <div class="hero-unit">
                 
                 <p>Your PHP application is now running on a container in Amazon ECS.</p>
-                <p>Release 4.01</p>
+                <p>Release 4.02</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
